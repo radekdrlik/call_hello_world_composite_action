@@ -10,5 +10,5 @@ jobs:
         uses: actions/hello-world-composite-actions@v1
         with:
           who-to-greet: 'Mona the Octocat'
-      - run: echo random-number ${{ steps.outputs.random-number
+      - run: echo random-number ${{ steps.outputs.random-number}}
         shell: bash
